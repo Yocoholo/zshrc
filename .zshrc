@@ -10,6 +10,12 @@ ZSH_THEME="robbyrussell"
 zstyle ':omz:update' mode auto
 HIST_STAMPS="dd/mm/yyyy"
 
-plugins=(git)
+plugins=(
+  git
+  fzf
+  zsh-autosuggestions
+  zsh-autocomplete
+  sudo
+)
 
 source $ZSH/oh-my-zsh.sh
