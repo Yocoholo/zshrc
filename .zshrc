@@ -1,11 +1,6 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
-# Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 
 zstyle ':omz:update' mode auto
 HIST_STAMPS="dd/mm/yyyy"
@@ -13,9 +8,13 @@ HIST_STAMPS="dd/mm/yyyy"
 plugins=(
   git
   fzf
+  fzf-tab
   zsh-autosuggestions
-  zsh-autocomplete
   sudo
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# setup environment
+fastfetch
+eval $(lesspipe)
