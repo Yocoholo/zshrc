@@ -14,7 +14,4 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# setup environment
 fastfetch
-eval $(lesspipe)

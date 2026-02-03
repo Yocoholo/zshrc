@@ -37,3 +37,9 @@ PROMPT='$(git_prompt_info)
 
 RPROMPT=''
 
+# Catppuccin colors for ls/eza output
+export LS_COLORS="di=38;2;148;226;213:fi=38;2;205;214;244:ln=38;2;137;180;250:ex=38;2;166;227;161:*.tar=38;2;250;227;175:*.zip=38;2;250;227;175:*.gz=38;2;250;227;175"
+
+# Set terminal background and foreground colors (Catppuccin Mocha)
+print -n "\033]11;rgb:1e/1e/2e\007"  # Background: Base
+print -n "\033]10;rgb:cd/d6/f4\007"  # Foreground: Text
