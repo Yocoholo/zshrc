@@ -43,3 +43,18 @@ export LS_COLORS="di=38;2;148;226;213:fi=38;2;205;214;244:ln=38;2;137;180;250:ex
 # Set terminal background and foreground colors (Catppuccin Mocha)
 print -n "\033]11;rgb:1e/1e/2e\007"  # Background: Base
 print -n "\033]10;rgb:cd/d6/f4\007"  # Foreground: Text
+
+# Syntax highlighting colors (Catppuccin Mocha)
+ZSH_HIGHLIGHT_STYLES[command]='fg=150'                    # Green
+ZSH_HIGHLIGHT_STYLES[alias]='fg=150'                      # Green
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=250'                    # Blue
+ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=203'              # Red
+ZSH_HIGHLIGHT_STYLES[function]='fg=116'                   # Teal
+ZSH_HIGHLIGHT_STYLES[arg0]='fg=215'                       # Peach
+ZSH_HIGHLIGHT_STYLES[option]='fg=215'                     # Peach
+ZSH_HIGHLIGHT_STYLES[string]='fg=221'                     # Yellow
+ZSH_HIGHLIGHT_STYLES[path]='fg=116'                       # Teal
+ZSH_HIGHLIGHT_STYLES[path_prefix]='fg=116'                # Teal
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=211'                   # Pink
+ZSH_HIGHLIGHT_STYLES[history-expansion]='fg=215'          # Peach
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=203'              # Red

@@ -10,8 +10,11 @@ plugins=(
   fzf
   fzf-tab
   zsh-autosuggestions
+  zsh-syntax-highlighting
   sudo
 )
 
 source $ZSH/oh-my-zsh.sh
-fastfetch
+# tftpd completions
+fpath=(/home/reef/.zsh/completions $fpath)
+autoload -Uz compinit && compinit
