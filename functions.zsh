@@ -29,3 +29,11 @@ function source_() {
 }
 
 alias ._='source_'
+
+function copilot() {
+    if [[ $# -eq 0 ]]; then
+        command copilot --agent=interface
+    else
+        command copilot "$@"
+    fi
+}
