@@ -23,5 +23,3 @@ alias ...="cd ../.."
 alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
-# fix the name of fdfind to fd
-alias fd="fdfind"
